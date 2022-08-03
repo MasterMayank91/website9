@@ -1,0 +1,69 @@
+
+
+@media screen and (max-width: 700px)
+{
+    header
+    {
+        background:#eee;
+    }
+    h1
+    {
+        color:#111;
+    }
+    #item
+    {
+        flex-flow:row wrap-reverse;
+    }
+    #resultbox
+    {
+        width:90%;
+        padding: 30px;
+    }
+    .messege
+    {
+        padding: 20px;
+    }
+    #form
+    {
+        background:#ddd;
+    }
+    .button
+    {
+        background:#aaa;
+    }
+    .button:hover
+    {
+        color:#fff;
+        background:#ad203f;
+    }
+    textarea
+    {
+        background:#eee;
+        color: #ad1c3c;
+    }
+    footer
+    {
+        background:#fff;
+    }
+    #links
+    {
+        display:grid;
+        place-content: start;
+    }
+    .anchor
+    {
+        margin: 10px 50px;
+    }
+    a
+    {
+        color:#333;
+    }
+    a:hover
+    {
+        color:#000;
+    }
+    .copy
+    {
+        color:#000;
+    }
+}

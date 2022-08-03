@@ -1,0 +1,159 @@
+@import "response.css";
+
+*
+{
+    margin:0;
+    border:none;
+    outline: none;
+    user-select: none;
+    text-decoration: none;
+}
+main
+{
+    display: inline;
+}
+
+/* header CSS */
+
+header
+{
+    background:#111;
+}
+#top
+{
+    display: flex;
+    justify-content: space-between;
+}
+h1
+{
+    font-family:arial;
+    color:#aaa;
+    padding: 30px 40px;
+}
+img
+{
+    width: 100px;
+    height: 100px;
+    padding: 0 20px;
+}
+#item
+{
+    display: flex;
+    justify-content: space-around;
+}
+#resultbox
+{
+    width:300px;
+    background:#ad1c3c;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+    display: grid;
+    justify-content: space-evenly;
+}
+h3
+{
+    color:#000;
+    font:bold 18px arial; 
+}
+.result
+{
+    margin: 50px;
+    color:#fff;
+    font:bold italic 25px arial;
+}
+#form
+{
+    width: 700px;
+    text-align: center;
+    background:#222;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+}
+legend
+{
+    font: bold  25px calibri;
+    color:#ad1c3c;
+}
+.field
+{
+    width:80%;
+    text-align: center;
+    background:#fff;
+    color:#000;
+    border-radius: 15px;
+    padding: 10px;
+    margin:20px;
+    font:16px arial;
+}
+.button
+{
+    width:30%;
+    text-align: center;
+    background:#000;
+    color:#ad1c3c;
+    border-radius: 20px;
+    padding: 15px;
+    margin:20px;
+    font: bold 16px arial;
+}
+.button:hover
+{
+    color:#fff;
+    background:#ad203f;
+}
+textarea
+{
+    width:80%;
+    text-align: center;
+    background:#111;
+    color: #eee;
+    border-radius: 30px;
+    padding: 15px;
+    margin:20px;
+    font:bold 18px calibri; 
+}
+
+/* Footer CSS */
+
+footer
+{
+    background:#000;
+}
+#links
+{
+    display: flex;
+    justify-content: space-around;
+}
+.anchor
+{
+    display: grid;
+    grid-gap:10px;
+}
+h2
+{
+    font:bold 18px arial;
+    color:#ad203f;
+    text-decoration: underline;
+    padding: 25px ;
+}
+a
+{
+    font:italic 16px calibri;
+    color:#999;
+    padding: 20px  0;
+}
+a:hover
+{
+    color:#fff;
+    text-decoration: underline;
+}
+.copy
+{
+    display: flex;
+    justify-content: space-around;
+    font:20px arial;
+    color:#fff;
+    padding: 20px;
+}
